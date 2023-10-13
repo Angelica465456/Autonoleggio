@@ -26,7 +26,16 @@ public class App {
         if(scad.compareTo(oggi) < 0){
             System.out.println("\nLa patente è scaduta.");
         }else{
-            System.out.println("\nLa patente è ok.");
-        }
+            System.out.println("\nLa patente è ok. \nScegli un veicolo: Macchina (1) o Moto?");
+            int scelta = sca.nextInt();
+        
+            if(scelta == 1){
+                System.out.println("\nHai sceto la macchina. \nScegli quante porte vuoi: ");
+                int porte = sca.nextInt();
+            }else{
+                 System.out.println("\nHai sceto la moto.");
+
+            }
 	}
+}
 }
