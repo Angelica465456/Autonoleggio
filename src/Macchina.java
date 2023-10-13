@@ -37,6 +37,3 @@ public class Macchina extends Veicolo{
     }
 
 }
-
-
-
